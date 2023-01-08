@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843856944673",
+    "project_id": "androidprojects-310315",
+    "storage_bucket": "androidprojects-310315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843856944673:android:a56eb8093ce352f2130d60",
+        "android_client_info": {
+          "package_name": "com.regera.firebasemvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843856944673-r86284hr404ooic8v6epnp19r8etkusb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADpE6WqQesTB-9xUIhLyJHIiHzighLKxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843856944673-r86284hr404ooic8v6epnp19r8etkusb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
