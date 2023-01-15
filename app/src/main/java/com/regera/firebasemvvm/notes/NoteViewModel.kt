@@ -5,8 +5,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.regera.firebasemvvm.data.model.Note
 import com.regera.firebasemvvm.data.repository.NoteRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class NoteViewModel(
+@HiltViewModel
+class NoteViewModel @Inject constructor(
     private val noteRepository :  NoteRepository) : ViewModel() {
 
     private val _notes = MutableLiveData<List<Note>>()
