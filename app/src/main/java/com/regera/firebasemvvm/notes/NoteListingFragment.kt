@@ -34,7 +34,7 @@ class NoteListingFragment : Fragment() {
         noteViewModel.getNotes()
         noteViewModel.note.observe(viewLifecycleOwner) {
             it.forEach {
-                Log.d(TAG,it.toString())
+                Log.e(TAG,it.toString())
             }
         }
     }
